@@ -69,7 +69,6 @@ from .signals import (
 from .sources import (
     LineSource,
     MaskedCsvSamples,
-    MaskedCsvSamples2,
     MaskedTimeSamples,
     MaskedWavSamples,
     MovingLineSource,
@@ -84,7 +83,6 @@ from .sources import (
     UncorrelatedNoiseSource,
     WavSamples,
     CsvSamples,
-    CsvSamples2,
 )
 from .spectra import BaseSpectra, FFTSpectra, PowerSpectra, PowerSpectraImport, synthetic
 from .spectra import PowerSpectra as EigSpectra
