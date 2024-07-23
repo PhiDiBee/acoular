@@ -535,14 +535,20 @@ class WavSamples(SamplesGenerator):
             else:
                 raise ValueError('calibration data not compatible: %i, %i' % (self.calib.num_mics, self.numchannels))
             while i < self.numsamples:
-                yield self.wavf.read(num) * cal_factor
-                i += num
-                self.wavf.seek(i)
+                try:
+                    yield self.wavf.read(num) * cal_factor
+                    i += num
+                    self.wavf.seek(i)
+                except:
+                    break
         else:
             while i < self.numsamples:
-                yield self.wavf.read(num)
-                i += num
-                self.wavf.seek(i)
+                try:
+                    yield self.wavf.read(num)
+                    i += num
+                    self.wavf.seek(i)
+                except:
+                    break
 
 
 class MaskedWavSamples(WavSamples):
@@ -663,9 +669,12 @@ class MaskedWavSamples(WavSamples):
             else:
                 raise ValueError('calibration data not compatible: %i, %i' % (self.calib.num_mics, self.numchannels))
         while i < stop:
-            yield self.wavf.read(min(num, stop - i))[:, self.channels] * cal_factor
-            i += num
-            self.wavf.seek(i)
+            try:
+                yield self.wavf.read(min(num, stop - i))[:, self.channels] * cal_factor
+                i += num
+                self.wavf.seek(i)
+            except:
+                break
 
 
 class CsvSamples(SamplesGenerator):
