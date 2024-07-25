@@ -6,6 +6,12 @@
 examples/three_sources.h5
 examples/all_bf.sav
 examples/benchmark/results/
+_demonotebook/three_sources.h5
+_demonotebook/three_sources.wav
+_demonotebook/three_sources.csv
+_demonotebook/largetester3.csv
+_demonotebook/largetester3.wav
+
 MANIFEST
 
 # ignore the build directories
