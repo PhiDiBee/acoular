@@ -5,6 +5,13 @@
 [![Actions status](https://github.com/acoular/acoular/actions/workflows/tests.yml/badge.svg)](https://github.com/acoular/acoular/actions)
 [![DOI](https://zenodo.org/badge/29729101.svg)](https://zenodo.org/doi/10.5281/zenodo.3690794)
 
+# Project: Integration of WAVE and CSV files
+This is a student project that extends Acoular with the ability to accept WAV and CSV files as input in addition to HDF5 files. Specific classes are created for this purpose, which will read the different file formats and returns them in a format required by Acoular.
+
+By implementing these classes, it is possible to process a greater variety of input data, significantly enhancing the flexibility and applicability of the software. After block-wise data output, the generated time data can be integrated into Acoular's existing processing and analysis pipeline to create acoustic mapping and perform further analyses.
+
+Additionally, a demo notebook (in the demo folder) is created to familiarize users with the use of different input formats.
+
 # Acoular
 Acoular is a Python module for acoustic beamforming that is distributed under the new BSD license. 
 
