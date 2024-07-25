@@ -465,6 +465,9 @@ class WavSamples(SamplesGenerator):
     # Checksum over all data entries of one channel
     _datachecksum = Property()
 
+    # internal condition to reset the counter
+    _reset_counter = Bool(False)
+
     # internal identifier
     digest = Property(depends_on=['basename', 'calib.digest', '_datachecksum'])
 
@@ -523,6 +526,11 @@ class WavSamples(SamplesGenerator):
             The last block may be shorter than num.
 
         """
+        # check if already read to the end of the interval
+        if self._reset_counter == True:
+            self.wavf.seek(0)
+            self._reset_counter = False
+
         if self.numsamples == 0:
             msg = 'no samples available'
             raise OSError(msg)
@@ -535,19 +543,23 @@ class WavSamples(SamplesGenerator):
             else:
                 raise ValueError('calibration data not compatible: %i, %i' % (self.calib.num_mics, self.numchannels))
             while i < self.numsamples:
-                try:
-                    yield self.wavf.read(num) * cal_factor
-                    i += num
+
+                yield self.wavf.read(num) * cal_factor
+                i += num
+                if i < self.numsamples:
                     self.wavf.seek(i)
-                except:
+                else:
+                    self._reset_counter = True
                     break
+
         else:
             while i < self.numsamples:
-                try:
-                    yield self.wavf.read(num)
-                    i += num
+                yield self.wavf.read(num)
+                i += num
+                if i < self.numsamples:
                     self.wavf.seek(i)
-                except:
+                else:
+                    self._reset_counter = True
                     break
 
 
@@ -655,6 +667,12 @@ class MaskedWavSamples(WavSamples):
         i = sli[0]
         stop = sli[1]
         cal_factor = 1.0
+
+        # check if already read to the end of the interval
+        if self._reset_counter == True:
+            self.wavf.seek(i)
+            self._reset_counter = False
+
         if i >= stop:
             msg = 'no samples available'
             raise OSError(msg)
@@ -669,11 +687,14 @@ class MaskedWavSamples(WavSamples):
             else:
                 raise ValueError('calibration data not compatible: %i, %i' % (self.calib.num_mics, self.numchannels))
         while i < stop:
-            try:
-                yield self.wavf.read(min(num, stop - i))[:, self.channels] * cal_factor
-                i += num
+
+            yield self.wavf.read(min(num, stop - i))[:, self.channels] * cal_factor
+            i += num
+            #check if not at the end of the file
+            if i < self.numsamples_total:
                 self.wavf.seek(i)
-            except:
+            else:
+                self._reset_counter = True
                 break
 
 
@@ -717,6 +738,9 @@ class CsvSamples(SamplesGenerator):
 
     # Checksum over all data entries of one channel
     _datachecksum = Property()
+
+    # internal reset condition for result
+    _reset_counter = Bool(False)
 
     # internal identifier
     digest = Property(depends_on=['basename', 'calib.digest', '_datachecksum'])
@@ -788,6 +812,12 @@ class CsvSamples(SamplesGenerator):
             The last block may be shorter than num.
 
         """
+
+        # check if already read to the end of the read interval
+        if self._reset_counter == True:
+            self.csvf = read_csv(self.name, delimiter=self.delimiter,chunksize=num, iterator=True)
+            self._reset_counter = False
+        
         if self.sample_freq == 0:
             print("No sample frequency given. Provide a sample frequency when calling the class.")
             try:
@@ -808,11 +838,14 @@ class CsvSamples(SamplesGenerator):
                 raise ValueError('calibration data not compatible: %i, %i' % (self.calib.num_mics, self.numchannels))
             for block in self.csvf:
                 yield block.to_numpy() * cal_factor
-            
+            else:
+                self._reset_counter = True            
 
         else:
             for block in self.csvf:
                 yield block.to_numpy()
+            else:
+                self._reset_counter = True 
 
 
 class MaskedCsvSamples(CsvSamples):
@@ -907,7 +940,7 @@ class MaskedCsvSamples(CsvSamples):
 
     def load_timedata(self, delimiter):
         """Loads timedata from .csv file. Only for internal use."""
-        self.csvf = read_csv(self.name, delimiter=delimiter,chunksize=128, iterator=True)
+        self.csvf = read_csv(self.name, delimiter=delimiter,chunksize=128, iterator=True, encoding='utf-8', header=None,skiprows=slice(self.start, self.stop).indices(self.numsamples_total)[0])
 
 
     def result(self, num=128):
@@ -929,6 +962,10 @@ class MaskedCsvSamples(CsvSamples):
         i = sli[0]
         stop = sli[1]
         cal_factor = 1.0
+        if self._reset_counter == True:
+            self.csvf = read_csv(self.name, delimiter=self.delimiter,chunksize=num, iterator=True, encoding='utf-8', header=None,skiprows=i)
+            self._reset_counter = False
+
         if i >= stop:
             msg = 'no samples available'
             raise OSError(msg)
@@ -940,7 +977,7 @@ class MaskedCsvSamples(CsvSamples):
             except ValueError:
                 print("Please provide a valid integer value.")
         if self.csvf.chunksize != num:
-            self.csvf = read_csv(self.name, delimiter=self.delimiter,chunksize=num, iterator=True, encoding='utf-8')
+            self.csvf = read_csv(self.name, delimiter=self.delimiter,chunksize=num, iterator=True, encoding='utf-8', header=None,skiprows=i)
         if self.calib:
             if self.calib.num_mics == self.numchannels_total:
                 cal_factor = self.calib.data[self.channels][newaxis]
@@ -953,6 +990,9 @@ class MaskedCsvSamples(CsvSamples):
         while i < stop:
             yield self.csvf.get_chunk(num).to_numpy()[0 : min(num, stop - i)][:, self.channels] * cal_factor
             i += num
+            if i < stop:
+                self._reset_counter = True
+            
 
 
 
