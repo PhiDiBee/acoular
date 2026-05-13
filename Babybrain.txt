@@ -1,0 +1,314 @@
+# Babybrain - Demonology - 2026-05-12 14:02 - US/Area 52
+# SimC Addon 12.0.5-02
+# WoW 12.0.5.67451, TOC 120005
+# Requires SimulationCraft 1000-01 or newer
+
+warlock="Babybrain"
+level=90
+race=orc
+region=us
+server=area_52
+role=spell
+professions=alchemy=100/tailoring=100
+spec=demonology
+# loot_spec=demonology
+
+talents=CoQAMrNP5kak+EBqLfUa3dMm+yMzMzoZjhZmZmlBAAAAAAAMmxwCMw2oNaYxYMWmlZmZMDAMzYmZmZGAzMmZAAAGzMzYYYZGDYA
+
+# Saved Loadout: dragon
+# talents=CoQAMrNP5kak+EBqLfUa3dMm+iZmZGmNGbzMjZZAAAAAAAAjZMsADsNsghFDmZZ2mZmxMAwMMzMzMDwMzwMbAAgZmZmxMYWmxAGA
+# Saved Loadout: berlo
+# talents=CoQAMrNP5kak+EBqLfUa3dMm+yMzMzwsxwMzMzyAAAAAAAAGzYYBGYbYDDLGMzysMzMjZAgZYmZmZGAmZGzGAAYmZmZMMmlZMgB
+# Saved Loadout: ST SH
+# talents=CoQAMrNP5kak+EBqLfUa3dMm+yMzMzwsxwMzYWGAAAAAAgx22MmZGWMMMz2sZBzYzYM2mlZmZMDAYmZmZmZGMzMmxMDAAwYmZmZMDLDAD
+# Saved Loadout: SEAT
+# talents=CoQAMrNP5kak+EBqLfUa3dMm+yMMzwsZmZbmZmZZAAAAAAAAjZMsADsNsghFjZGLz2MzMmBAmZMmZmZAGzYGbAAgxMzMGGWmxAGA
+# Saved Loadout: vorasius
+# talents=CoQAMrNP5kak+EBqLfUa3dMm+uZmZmZY2YYmZMLDAAAAAAwYbZgBMgZYDYsZMGLzyMzMmBAMzMzMDwMDzYmBAAYMzMzMGsMDgB
+# Saved Loadout: chim
+# talents=CoQAMrNP5kak+EBqLfUa3dMm+yMMzwsZmZbmZMbDAAAAAAAYMjhFYgthNMsYMzYZ2mZmxMAwMjxMzMDwMzYGbAAgxMzMGGWmxAGA
+# Saved Loadout: HANNAH MONTANA
+# talents=CoQAMrNP5kak+EBqLfUa3dMm+yMjZGmNzMbzMjZZAAAAAAAAjZMsADsNsghFjZGLz2MzMmBAmZMGzMDwYGzYDAAYmZmxMG2mxAGA
+# Saved Loadout: no felguard
+# talents=CoQAMrNP5kak+EBqLfUa3dMm+yMjZGmNzMbzMjZZAAAAAAAAjZMsADsNsghFjZGLz2MzMmBAmZMzMmZAGzYGbAAgxMzMGG2mxAGA
+# Saved Loadout: SHRIMP DAWGS
+# talents=CoQAMrNP5kak+EBqLfUa3dMm+yMMzwsZmZbmZmZZAAAAAAAAjZMsADsNsghFjZGLz2MzMmBAmZMmZmZAGzYGbAAgxMzMGGWmxAGA
+# Saved Loadout: BEL;O
+# talents=CoQAMrNP5kak+EBqLfUa3dMm+amhZGmNzYbmZMLDAAAAAAAYMjhFYgthFMsYwMLzyMzMmBAmhZmZmZAGzYmZDAAMzMzMGGzyMGwA
+# Saved Loadout: vanguard
+# talents=CoQAMrNP5kak+EBqLfUa3dMm+yMmZGmNGmZmZWGAAAAAAAwYGDLwAbDLYYxgZWmtZmZMDAMDzMzMzAMzMGzGAAYmZmZMMmlZMgB
+# Saved Loadout: Vorasius
+# talents=CoQAMrNP5kak+EBqLfUa3dMm+amxDMzwsZGbzMjZZAAAAAAAGbbDMgBMDbAjNjxYZWmZmxMAgZmZmZAmZYmZmBAAYMzMjxglZAMA
+# Saved Loadout: dragon
+# talents=CoQAMrNP5kak+EBqLfUa3dMm+yMmZmxsNGmZGzyAAAAAAAAGzYYBGYbYDDLGzMWmtZmZMDAMzYMzMzAMzMMDAAwYmZGDDLzYAD
+# Saved Loadout: sh st
+# talents=CoQAMrNP5kak+EBqLfUa3dMm+yMzMzwsxYbmZMLDAAAAAAwYbbgBMgZYDYsZMGLzyMzMmBAMzMzMDwMzYGjBAAYMzMzMGsMDgB
+# Saved Loadout: chim
+# talents=CoQAMrNP5kak+EBqLfUa3dMm+yMzMzwsxYbmZMLDAAAAAAAYMjhFYgthFMsYwMLz2MzMmBAmhZmZmZAGzwMbAAgZmZmxwYWmxAGA
+# Saved Loadout: MCAVERNS
+# talents=CoQAMrNP5kak+EBqLfUa3dMm+yMjZGmNzMbzMjZZAAAAAAAAjZMsADsNsghFjZGLz2MzMmBAmZMmZmZAGzYGbAAgxMzMGG2mxAGA
+# Saved Loadout: mgt 2.0
+# talents=CoQAMrNP5kak+EBqLfUa3dMm+yMmZGmNmZbmZMLDAAAAAAAYMjhFYgthFMsYMzYZ2mZmxMAwMjZGzMDwYGzYDAAwMzMGGz2MGwA
+# Saved Loadout: delve
+# talents=CoQAMrNP5kak+EBqLfUa3dMm+amZmZGmNGmZGzyAAAAAAAM2WGYADYG2AGbGzMWGzMjZGAYmZmxMAzMDzMzAAAMmZmZGD2mZAGA
+# Saved Loadout: st diab
+# talents=CoQAMrNP5kak+EBqLfUa3dMm+yMzMzwsxwMzMzyAAAAAAAAGzYYBGYbYDDLGjxysMzMjZAgZGzMzMzAYmxMDAAwYmZGDDLzYAD
+# Saved Loadout: AVERZIAN
+# talents=CoQAMrNP5kak+EBqLfUa3dMm+yMzMzwsxwMzYWGAAAAAAAwYGDLwAbDbYYxgZWmtZmZMDAMDzMzMzAMmxMDAAwMzMzMDjZZGDYA
+
+# Abyssal Immolator's Smoldering Flames (289)
+head=,id=250042,enchant_id=8017,gem_id=240983,bonus_id=6652/13335/13338/13575/13534/12806
+# Eternal Voidsong Chain (289)
+neck=,id=249368,gem_id=240906,bonus_id=6652/13668/13335/12806
+# Abyssal Immolator's Fury (289)
+shoulder=,id=250040,enchant_id=8001,bonus_id=13335/43/13340/13574/12806
+# Adherent's Silken Shroud (285)
+back=,id=239656,bonus_id=12214/13667/12497/12066/8960/12384/8790/13622,crafted_stats=36/40,crafting_quality=5
+# Abyssal Immolator's Dreadrobe (289)
+chest=,id=250045,enchant_id=7987,bonus_id=12806/13335/41/13336/13575/3174
+# Precious's Ribbon (1)
+shirt=,id=52019
+# Tabard of the Lightbringer (14)
+tabard=,id=52252
+# Martyr's Bindings (285)
+wrist=,id=239648,gem_id=240906,bonus_id=12214/13667/12497/12066/8960/12384/8791/13622/12666,crafted_stats=32/49,crafting_quality=5
+# Abyssal Immolator's Grasps (289)
+hands=,id=250043,enchant_id=2841,bonus_id=6652/13335/13337/13574/12806
+# Abyssal Immolator's Blazing Core (289)
+waist=,id=250039,gem_id=240906,bonus_id=6652/13335/13534/12806
+# Leyline Leggings (289)
+legs=,id=251205,enchant_id=7935,bonus_id=13440/6652/13577/12699/12806
+# Slippers of the Midnight Flame (289)
+feet=,id=249305,enchant_id=7963,bonus_id=6652/13577/13335/12806
+# Sin'dorei Band of Hope (289)
+finger1=,id=249919,enchant_id=7967,gem_id=240906,bonus_id=6652/13668/13335/12806
+# Eye of Midnight (289)
+finger2=,id=249920,enchant_id=7967,gem_id=240906/240906,bonus_id=6652/13668/13335/12806
+# Emberwing Feather (298)
+trinket1=,id=250144,bonus_id=13440/6652/12699/13654
+# Gaze of the Alnseer (298)
+trinket2=,id=249343,bonus_id=6652/13335/13654
+# Umbral Spire of Zuraal (298)
+main_hand=,id=258514,enchant_id=7981,bonus_id=13440/6652/12701/13654
+
+### Gear from Bags
+#
+# Organized Pontificator's Mask (266)
+# head=,id=193703,bonus_id=12795/13440/6652/12667/13577/12699
+#
+# Galactic Gladiator's Silk Guise (263)
+# head=,id=255402,enchant_id=7959,bonus_id=13448/13577/13554/13452/12790
+#
+# Eternal Voidsong Chain (289)
+# neck=,id=249368,bonus_id=6652/13668/13335/12806
+#
+# Preyseeker's Clasp (246)
+# neck=,id=259915,bonus_id=12785/6652/13668
+#
+# Amulet of the Abyssal Hymn (233)
+# neck=,id=250247,bonus_id=6652/13668/13332/12777/11215
+#
+# Barbed Ymirheim Choker (266)
+# neck=,id=50228,bonus_id=12795/13440/42/13668/12699
+#
+# Thalassian Competitor's Amulet (188)
+# neck=,id=240952,gem_id=241143,bonus_id=12245/13760/12497/13563/13451/8792,crafted_stats=40/49,crafting_quality=5
+#
+# Galactic Gladiator's Silk Mantle (263)
+# shoulder=,id=255406,enchant_id=7971,bonus_id=13448/13577/13452/12790
+#
+# Reshii Wraps (170)
+# back=,id=235499,enchant_id=7415,gem_id=238042,bonus_id=12401/9893/12259
+#
+# Thalassian Competitor's Cloth Cloak (242)
+# back=,id=239678,bonus_id=12245/13760/12496/13571/13448/8960/12384/8793,crafted_stats=49/40,crafting_quality=4
+#
+# Galactic Aspirant's Silk Robe (217)
+# chest=,id=255263,enchant_id=8012,bonus_id=13629/13447
+#
+# Frayed Wristwraps (201)
+# wrist=,id=258872,bonus_id=13611,drop_level=90
+#
+# Voracious Wristwraps (289)
+# wrist=,id=249315,bonus_id=6652/12667/13577/13335/12806
+#
+# Thalassian Competitor's Cloth Bands (246)
+# wrist=,id=239677,gem_id=240890,bonus_id=12245/13576/13760/12497/13571/13448/8960/12384/8795,crafted_stats=32/40,crafting_quality=5
+#
+# Galactic Warmonger's Gloves (243)
+# hands=,id=255884,bonus_id=12780/13449/13577
+#
+# Thalassian Competitor's Cloth Sash (181)
+# waist=,id=239682,bonus_id=12245/13554/13760/12495/13563/13451/8794,crafted_stats=49/36,crafting_quality=3
+#
+# Scorn-Scarred Shul'ka's Belt (233)
+# waist=,id=249374,bonus_id=6652/12667/13577/13332/12777/11215
+#
+# Threadbare Leggings (201)
+# legs=,id=258860,bonus_id=13611,drop_level=90
+#
+# Commander's Faded Breeches (266)
+# legs=,id=251090,bonus_id=12795/13440/6652/13577/12699
+#
+# Abyssal Immolator's Pillars (289)
+# legs=,id=250041,enchant_id=7935,bonus_id=6652/13335/13339/13575/12806
+#
+# Galactic Aspirant's Silk Leggings (217)
+# legs=,id=255279,enchant_id=7939,bonus_id=13629/13447
+#
+# Ice-Steeped Sandals (266)
+# feet=,id=49805,bonus_id=12795/13440/6652/13577/12699
+#
+# Thalassian Competitor's Cloth Treads (188)
+# feet=,id=239684,enchant_id=8019,bonus_id=12245/13760/12497/13563/13451,crafted_stats=40/49,crafting_quality=5
+#
+# Thalassian Competitor's Signet (188)
+# finger1=,id=240951,enchant_id=8022,gem_id=240883,bonus_id=12245/13760/12497/13563/13451,crafted_stats=49/40,crafting_quality=5
+#
+# Blooming Leafcoil (201)
+# finger1=,id=249623,bonus_id=13564/13668,drop_level=90
+#
+# Preyseeker's Circle (246)
+# finger1=,id=259914,bonus_id=12785/6652/13668
+#
+# Spiritseal Ring (201)
+# finger1=,id=249622,bonus_id=13564/13668,drop_level=90
+#
+# Thalassian Competitor's Signet (188)
+# finger1=,id=240951,enchant_id=8022,gem_id=240883,bonus_id=12245/13760/12497/13563/13451/8792,crafted_stats=32/36,crafting_quality=5
+#
+# Occlusion of Void (289)
+# finger1=,id=251217,enchant_id=7967,gem_id=240890,bonus_id=13440/6652/13668/12699/12806
+#
+# Omission of Light (266)
+# finger1=,id=251093,bonus_id=12795/13440/6652/13668/12699
+#
+# Bifurcation Band (266)
+# finger1=,id=251115,bonus_id=12795/13440/6652/13668/12699
+#
+# Platinum Star Band (266)
+# finger1=,id=193708,bonus_id=12795/13440/6652/13668/12699
+#
+# Wraps of Cosmic Madness (276)
+# trinket1=,id=249340,bonus_id=6652/13335/12802
+#
+# Eye of the Drowning Void (266)
+# trinket1=,id=250257,bonus_id=12795/13440/6652/12699
+#
+# Nevermelting Ice Crystal (266)
+# trinket1=,id=50259,bonus_id=12795/13440/6652/12699
+#
+# Galactic Aspirant's Insignia of Alacrity (217)
+# trinket1=,id=255328,bonus_id=13629/13447
+#
+# Primal Philosopher's Stone (168)
+# trinket1=,id=241291,bonus_id=12249/12248/4785/12494,crafting_quality=2
+#
+# Vessel of Tortured Souls (266)
+# trinket1=,id=250258,bonus_id=12795/13440/6652/12699
+#
+# Reality Breacher (266)
+# trinket1=,id=151310,bonus_id=12795/13440/6652/12699
+#
+# Sylvan Wakrapuku (259)
+# trinket1=,id=251784,bonus_id=12793/6652
+#
+# Astalor's Anguish Agitator (259)
+# trinket1=,id=264878,bonus_id=12793/6652
+#
+# Locus-Walker's Ribbon (276)
+# trinket1=,id=249809,bonus_id=6652/13334/12798
+#
+# Soulcatcher's Charm (266)
+# trinket1=,id=250223,bonus_id=12795/13440/6652/12699
+#
+# Vaelgor's Final Stare (263)
+# trinket1=,id=249346,bonus_id=6652/13333/12790
+#
+# Forgotten Farstrider's Insignia (263)
+# trinket1=,id=250462,bonus_id=6652/13333/12790,crafted_stats=32
+#
+# Heart of Wind (276)
+# trinket1=,id=250256,bonus_id=13440/40/12699/12798
+#
+# Glorious Crusader's Keepsake (220)
+# trinket1=,id=251792,bonus_id=12769/6652/13578
+#
+# Reality Breacher (266)
+# trinket1=,id=151310,bonus_id=12795/13440/6652/12699
+#
+# Glorious Crusader's Keepsake (250)
+# trinket1=,id=251792,bonus_id=12786/6652
+#
+# Novice Combatant's Medallion (201)
+# trinket1=,id=267076,bonus_id=13644/13451
+#
+# Crucible of Erratic Energies (263)
+# trinket1=,id=264507,bonus_id=12790
+#
+# Ever-Collapsing Void Fissure (259)
+# trinket1=,id=251786,bonus_id=12793/41/6652
+#
+# Glorious Crusader's Keepsake (220)
+# trinket1=,id=251792,bonus_id=12769/6652/13578
+#
+# Glorious Crusader's Keepsake (207)
+# trinket1=,id=251792,bonus_id=13564/13645/13615,drop_level=90
+#
+# Sealed Chaos Urn (250)
+# trinket1=,id=251787,bonus_id=12786/6652
+#
+# Eye of the Drowning Void (266)
+# trinket1=,id=250257,bonus_id=12795/13440/6652/12699
+#
+# Glorious Crusader's Keepsake (220)
+# trinket1=,id=251792,bonus_id=12769/6652/13578
+#
+# Splitshroud Stinger (266)
+# main_hand=,id=251111,bonus_id=12795/13440/6652/12701
+#
+# Aln'hara Cane (285)
+# main_hand=,id=245770,enchant_id=8039,bonus_id=12214/13667/12497/12066/13640/8960/8790/13622,crafted_stats=40/36,crafting_quality=5
+#
+# Supermassive Starcrusher (160)
+# main_hand=,id=237725,bonus_id=6652/10356/12360
+#
+# Twilight Scout's Sticher (1)
+# main_hand=,id=271014
+#
+# Corespark Multitool (289)
+# main_hand=,id=251201,enchant_id=8039,bonus_id=13440/6652/12701/12806
+#
+# Blade of the Blind Verdict (289)
+# main_hand=,id=249294,enchant_id=7981,bonus_id=6652/13335/12806
+#
+# Rootwarden's Spellblade (233)
+# main_hand=,id=257012,bonus_id=12777/6652
+#
+# Ashkandur, Fall of the Brotherhood (83)
+# main_hand=,id=202606,bonus_id=6652/9410/9383/8159/1498/8767
+#
+# Tome of Alnscorned Regret (289)
+# off_hand=,id=249922,bonus_id=6652/13335/12806
+#
+# Galactic Aspirant's Censer (217)
+# off_hand=,id=255347,bonus_id=13629/13447
+#
+# Radiant Eversong Scepter (253)
+# off_hand=,id=250447,bonus_id=6652/13333/12787
+
+### Weekly Reward Choices
+#
+### End of Weekly Reward Choices
+
+### Additional Character Info
+#
+# catalyst_currencies=3269:8/3378:8/2813:8/3116:8
+#
+# upgrade_currencies=c:3347:10/c:3383:410/c:1813:1514/c:3341:410/c:3343:390/c:1792:992/c:1931:7272/c:2122:37/c:3345:140/i:256608:3/i:228338:25/i:228339:2/i:232875:4/i:231769:1
+#
+# slot_high_watermarks=0:289:289/1:289:289/2:289:289/3:289:289/4:289:289/5:289:289/6:289:289/7:289:289/8:289:289/9:289:289/10:298:298/11:285:285/12:298:298/13:289:289/14:0:285/15:0:285/16:289:289
+#
+# upgrade_achievements=19326/19397/19398/19577/19578/19579/40107/40115/40118/40939/40942/40943/40944/40945/41886/41887/41888/41892/42767/42768/42769/61809/42770
+
+# Checksum: d7d908b6
