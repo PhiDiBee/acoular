@@ -1,0 +1,224 @@
+# Hellibe - Demonology - 2026-05-13 01:43 - EU/Blackrock
+# SimC Addon 12.0.5-02
+# WoW 12.0.5.67451, TOC 120005
+# Requires SimulationCraft 1000-01 or newer
+
+warlock="Hellibe"
+level=90
+race=blood_elf
+region=eu
+server=blackrock
+role=spell
+professions=tailoring=100/enchanting=105
+spec=demonology
+# loot_spec=demonology
+
+talents=CoQAMrNP5kak+EBqLfUa3dMm+amxMzoZbM2mZGzyAAAAAAAAGzYYBGYb0CNsYMGLzyMzMmBAmZMzMzMDgZGjBAAYMzMjhhlZMgB
+
+# Saved Loadout: TalentLoadoutManager
+# talents=CoQAMrNP5kak+EBqLfUa3dMm+yMMzwsZGbzMjZZAAAAAAAAjZMsADsNsghFjZGLz2MzMmBAmZMmZmZAmZGzMbAAgxMzMGGWmxAGA
+# Saved Loadout: Dragons MM
+# talents=CoQAMrNP5kak+EBqLfUa3dMm+yMzMzwsxwMzMzyAAAAAAAAGzYYBGYbYDDLGjxysNzMjZAgZGzMzMzAYmxYAAAGzMzMDDLzYAD
+# Saved Loadout: Beloren
+# talents=CoQAMrNP5kak+EBqLfUa3dMm+yMzMzwsxwMzMzyAAAAAAAAGzYYBGYbYBDLGzMWmlZmZMDAMzYMzMzAYmxYAAAGzMzMDDLzYAD
+# Saved Loadout: Chimaerus
+# talents=CoQAMrNP5kak+EBqLfUa3dMm+yMMzwsZmZbmZmZZAAAAAAAAjZMsADsNsghFjxYZ2mZmxMAwMjZmZmZAGzYGbAAgxMzMGGWmxAGA
+# Saved Loadout: PvP
+# talents=CoQAMrNP5kak+EBqLfUa3dMm+uMGmZY2MjFmZmlBAAAAAAYssMwAGwMsAM2MYsNmZmZMAwMmZMDwMzMzMzMAAAzMzMjZmhtZGgB
+# Saved Loadout: M+ DIA
+# talents=CoQAMrNP5kak+EBqLfUa3dMm+yMjZGmNzYbmZMLDAAAAAAAYMjhFYgthFMsYMGLz2MzMmBAmZMzMzMDwYGzMbAAgxMzMGGWmxAGA
+# Saved Loadout: Lura
+# talents=CoQAMrNP5kak+EBqLfUa3dMm+amxMzwsNGbzMjZZAAAAAAAAjZMsADsNsghFjxYZWmZmxMAwMjZmZmZAMzYMAAAjZmZMMsMjBMA
+# Saved Loadout: NK .5
+# talents=CoQAMrNP5kak+EBqLfUa3dMm+amZMzMmNzYbmZmZbAAAAAAAAjZMsADsNsghFjxYZ2mZmxMAwMjZmZmZAGzwMAAAjZmhhhlZMgB
+# Saved Loadout: SingleTarget Sim
+# talents=CoQAMrNP5kak+EBqLfUa3dMm+yMMzwsZGbzMjZZAAAAAAAGbLzYmZYxwwMbziFMjNjxYZWmZmxMAwMjZmZmZwMzMzYmZDAAMmZmxwwyMGwA
+# Saved Loadout: Vanguard MM Hotfix
+# talents=CoQAMrNP5kak+EBqLfUa3dMm+yMmZGmNGmZmZWGAAAAAAAwYGDLwAbDLYYxYMWmtZmZMDAMzYmZmZGgZmxY2AAAjZmZMMsMjBMA
+# Saved Loadout: Vanguard .5 MM
+# talents=CoQAMrNP5kak+EBqLfUa3dMm+yMmZGmNGmZmZWGAAAAAAAwYGDLwAbDbYYxgZWmtZmZMDAMDzMzMzAMzMGzCAAYmZmZMMmlZMgB
+# Saved Loadout: Vora MM
+# talents=CoQAMrNP5kak+EBqLfUa3dMm+yMmZGmNGmZmZ2GAAAAAAgx2yADYAzwGwYzYMWmlZmZMDAYmZmZGgZmZmxMDAAwYmZGjBLzAYA
+# Saved Loadout: M+ Seat
+# talents=CoQAMrNP5kak+EBqLfUa3dMm+yMjZGmNzMbzMjZbAAAAAAAAjZMsADsNsghFjZGLz2MzMmBAmZMmZmZAGzYGbAAgxMzYGGWmxAGA
+# Saved Loadout: Aleria
+# talents=CoQAMrNP5kak+EBqLfUa3dMm+yMzMzwsxwMzYWGAAAAAAgx2yMmZGWMMMz2sZBzYxgZWmlZmZMDAMDzMzMzgZmxMmZAAAmZmZmZYMbzYAD
+# Saved Loadout: spin old spin
+# talents=CoQAMrNP5kak+EBqLfUa3dMm+yMmZGmNGmZmZWGAAAAAAAwYGDLwAbDLYYxgZWmtZmZMDAMDzMzMzAMzMGzGAAYmZmZMMmlZMgB
+
+# Abyssal Immolator's Smoldering Flames (289)
+head=,id=250042,enchant_id=8017,bonus_id=13338/13440/43/12667/13575/12806
+# Ribbon of Coiled Malice (289)
+neck=,id=249337,gem_id=240900,bonus_id=6652/13668/13335/12806
+# Nysarra's Mantle (279)
+shoulder=,id=251213,enchant_id=8001,bonus_id=13440/6652/13577/12699/12803
+# Adherent's Silken Shroud (285)
+back=,id=239656,bonus_id=12214/13667/12497/12066/8960/12384/8791/13622,crafted_stats=36/40,crafting_quality=5
+# Abyssal Immolator's Dreadrobe (289)
+chest=,id=250045,enchant_id=7987,bonus_id=13335/13336/42/13575/12806
+# Common White Shirt (1)
+shirt=,id=16060
+# Tabard of the Explorer (1)
+tabard=,id=43348
+# Martyr's Bindings (285)
+wrist=,id=239648,bonus_id=12214/13667/12497/12066/8960/12384/8791/13622/12667,crafted_stats=49/36,crafting_quality=5
+# Abyssal Immolator's Grasps (279)
+hands=,id=250043,bonus_id=12803/13335/13337/6652/13574
+# Abyssal Immolator's Blazing Core (282)
+waist=,id=250039,gem_id=240983,bonus_id=6652/13534/13440/12804
+# Abyssal Immolator's Pillars (289)
+legs=,id=250041,enchant_id=7935,bonus_id=6652/13440/13339/13575/12806
+# Dream-Scorched Striders (289)
+feet=,id=249373,enchant_id=7963,bonus_id=6652/13577/13335/12806
+# Occlusion of Void (276)
+finger1=,id=251217,enchant_id=7967,gem_id=240900,bonus_id=13440/6652/13668/12699/12798
+# Omission of Light (276)
+finger2=,id=251093,enchant_id=7967,gem_id=240900,bonus_id=13440/6652/13668/12699/12802
+# Emberwing Feather (289)
+trinket1=,id=250144,bonus_id=13440/6652/12699/12806
+# Gaze of the Alnseer (289)
+trinket2=,id=249343,bonus_id=6652/13335/12806
+# Splitshroud Stinger (289)
+main_hand=,id=251111,enchant_id=8039,bonus_id=13440/6652/12701/12806
+# Grimoire of the Eternal Light (289)
+off_hand=,id=249276,bonus_id=6652/13335/12806
+
+### Gear from Bags
+#
+# Galactic Warmonger's Mask (250)
+# head=,id=255885,bonus_id=13449/13554/13577/12782
+#
+# Novice Combatant's Necklace (276)
+# neck=,id=266314,gem_id=240898,bonus_id=13447/12798
+#
+# Galactic Aspirant's Necklace (217)
+# neck=,id=255334,bonus_id=13629/13447
+#
+# Arboreal Vine Collar (263)
+# neck=,id=249627,bonus_id=6652/13668/12790
+#
+# Amulet of the Abyssal Hymn (276)
+# neck=,id=250247,gem_id=240900/240900,bonus_id=6652/13668/13334/12798
+#
+# Pendant of Aching Grief (276)
+# neck=,id=251096,bonus_id=13440/40/13668/12699/12798
+#
+# Lightbinder Shoulderguards (276)
+# shoulder=,id=258578,bonus_id=13440/42/13577/12699/12798
+#
+# Abyssal Immolator's Fury (276)
+# shoulder=,id=250040,enchant_id=8001,bonus_id=13340/42/13574/12798
+#
+# Nysarra's Mantle (276)
+# shoulder=,id=251213,enchant_id=8001,bonus_id=13440/6652/13577/12699/12798
+#
+# Novice Combatant's Cloak (217)
+# back=,id=267491,bonus_id=13629/13447
+#
+# Breastplate of the Dark Touch (253)
+# chest=,id=151329,bonus_id=12787/43/13577/12699/11215
+#
+# Striderplume Armbands (220)
+# wrist=,id=264522,bonus_id=12769/6652/12667/13578/11311
+#
+# Abyssal Immolator's Shackles (276)
+# wrist=,id=250038,gem_id=240906,bonus_id=6652/13534/13440/12798
+#
+# Galactic Warmonger's Bindings (237)
+# wrist=,id=255888,bonus_id=13451/13554/13578/12774
+#
+# Bloodscale Gauntlets of the Fireflash (24)
+# hands=,id=24945,bonus_id=6654/1695,drop_level=30
+#
+# Infernal Greatlock Girdle (279)
+# waist=,id=260371,bonus_id=6652/12667/13577/13335/12803/10844,crafted_stats=49/40
+#
+# Galactic Aspirant's Silk Cord (217)
+# waist=,id=255287,bonus_id=13629/13447/13554
+#
+# Scornbane Waistguard (250)
+# waist=,id=249371,bonus_id=6652/12667/13577/13333/12786/11215
+#
+# Leyline Leggings (289)
+# legs=,id=251205,bonus_id=13440/6652/13577/12699/12806
+#
+# Galactic Aspirant's Silk Treads (217)
+# feet=,id=255268,bonus_id=13629/13447
+#
+# Lightbinder Treads (266)
+# feet=,id=258584,bonus_id=12795/13440/40/13577/12699
+#
+# Purloined Wedding Ring (276)
+# finger1=,id=49812,enchant_id=7997,gem_id=240983,bonus_id=13440/6652/13668/12699/12798
+#
+# Galactic Aspirant's Band (217)
+# finger1=,id=255332,enchant_id=8021,bonus_id=13629/13447
+#
+# Platinum Star Band (276)
+# finger1=,id=193708,bonus_id=13440/6652/13668/12699/12798
+#
+# Galactic Aspirant's Ring (217)
+# finger1=,id=255331,enchant_id=8021,bonus_id=13629/13447
+#
+# Bifurcation Band (276)
+# finger1=,id=251115,enchant_id=7967,gem_id=240900,bonus_id=13440/41/13668/12699/12798
+#
+# Omission of Light (276)
+# finger1=,id=251093,enchant_id=7967,gem_id=240900,bonus_id=13440/6652/13668/12699/12798
+#
+# Galactic Aspirant's Insignia of Alacrity (217)
+# trinket1=,id=255328,bonus_id=13629/13447
+#
+# Heart of Wind (289)
+# trinket1=,id=250256,bonus_id=13440/6652/12699/12806
+#
+# Eye of the Drowning Void (276)
+# trinket1=,id=250257,bonus_id=13440/6652/12699/12798
+#
+# Novice Combatant's Medallion (201)
+# trinket1=,id=267076,bonus_id=13644/13451
+#
+# Crucible of Erratic Energies (263)
+# trinket1=,id=264507,bonus_id=12790
+#
+# Nevermelting Ice Crystal (276)
+# trinket1=,id=50259,bonus_id=13440/6652/12699/12798
+#
+# Wand of Saprish's Gaze (266)
+# main_hand=,id=258516,bonus_id=12795/13440/6652/12701
+#
+# Recruit's Battle Staff of the Fireflash (201)
+# main_hand=,id=134674,bonus_id=13573/1692/12703,drop_level=90
+#
+# Aln'hara Cane (285)
+# main_hand=,id=245770,enchant_id=8039,bonus_id=12214/13667/12497/12066/12715/8791/13622,crafted_stats=49/40,crafting_quality=5
+#
+# Disturbance Detection Device (1)
+# main_hand=,id=226172
+#
+# Overflowing Purple Brewfest Stein (1)
+# main_hand=,id=56836
+#
+# Ashkandur, Fall of the Brotherhood (83)
+# main_hand=,id=202606,bonus_id=7981/9383/6652/8159/1498/8767
+#
+# Rashon, the Immortal Blaze (85)
+# main_hand=,id=207793,bonus_id=40/7981/9576/9584/1520/8767
+#
+# Corespark Multitool (289)
+# main_hand=,id=251201,enchant_id=8039,bonus_id=13440/6652/12701/12806
+#
+# Sigil of the Restless Heart (289)
+# off_hand=,id=251094,bonus_id=13440/41/12699/12806
+
+### Additional Character Info
+#
+# catalyst_currencies=3269:8/3378:8/2813:8/3116:8
+#
+# upgrade_currencies=c:3383:635/c:1813:1000/c:3341:516/c:3343:350/c:1792:2327/c:2122:1/c:3345:260/i:256608:9/i:230285:1/i:224072:1/i:230287:9/i:232875:2
+#
+# slot_high_watermarks=0:289:289/1:289:289/2:279:289/3:289:289/4:282:289/5:289:289/6:289:289/7:285:289/8:279:289/9:276:276/10:289:289/11:285:289/12:289:289/13:289:289/14:1:289/15:0:289/16:289:289
+#
+# upgrade_achievements=40107/40115/41886/41887/41888/41892/42767/42768/42769/61809/42770
+
+# Checksum: 1a0f18b9
